@@ -73,7 +73,7 @@ test_dataset = torchvision.datasets.CIFAR10(root='./data', train=False, download
 # imbalance
 IMBALANCE_RATIO = 0.01  
 num_per_cls = get_img_num_per_cls(10, 'exp', IMBALANCE_RATIO)
-print(f"每个类别的样本数量分布: {num_per_cls}")
+print(f"Sample size distribution： {num_per_cls}")
 
 indices = gen_imbalanced_data(train_dataset_raw, num_per_cls)
 train_dataset = torch.utils.data.Subset(train_dataset_raw, indices)
