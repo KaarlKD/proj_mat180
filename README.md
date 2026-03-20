@@ -9,7 +9,7 @@ matplotlib
 timm
 
 ## midterm_report.py
-contains all function definition and training code for 
+contains all code for the midterm report.
 
 ## cifar10.py
 contains the training code for training and test for dataset CIFAR-10.
