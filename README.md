@@ -11,12 +11,12 @@ timm
 ## midterm_report.py
 contains all function definition and training code for 
 
-##cifar10.py
+## cifar10.py
 contains the training code for training and test for dataset CIFAR-10.
 
-##cifar100.py
+## cifar100.py
 contains the training code for training and test for dataset CIFAR-100.
 
-##aircraft.py
+## aircraft.py
 contains the training code for training and test for dataset FGVC-Aircraft.
 
