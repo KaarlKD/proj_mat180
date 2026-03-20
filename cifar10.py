@@ -23,7 +23,7 @@ def seed_everything(seed=42):
 
 seed_everything(42)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
+print(f"Using Device: {device}")
 
 
 ##second part
