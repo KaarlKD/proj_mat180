@@ -2,11 +2,11 @@
 Analysis of Image Classification Performance of CNNs and Vision Transformers Under Different Class Imbalance
 
 ## requirements
-torch
-torchvision
-numpy
-matplotlib
-timm
+torch \n
+torchvision \n
+numpy \n
+matplotlib \n
+timm \n
 
 ## midterm_report.py
 contains all code for the midterm report.
